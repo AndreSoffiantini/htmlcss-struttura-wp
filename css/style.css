@@ -12,5 +12,58 @@
     clear: both;
 }
 
+:root {
+    /* Colors */
+    --sidebar-color: #80A6D1;
+    --main-text-color: #7FB2C8;
+    --main-header-color: #8CE3C4;
+    --main-photo-color: #B2EA85;
+    --footer-color: #E4E5A7;
+    --main-color: #EA8222;
+    --header-color: #FEB1B1;
+    /* Dimensions */
+    --margin-header-main_photo: 2vh;
+    --margin-main_photo-main_text: 28px;
+    --margin-main_text-footer: 2vh;
+}
+
 
 /* /Common */
+
+
+/**************************** Body *****************************/
+
+
+/********* .Site_header **********/
+
+.site_header {
+    height: 12vh;
+    background-color: var(--header-color);
+    margin-bottom: var(--margin-header-main_photo);
+}
+
+
+/********* /.Site_header **********/
+
+
+/********* .Site_main **********/
+
+.site_main {
+    height: 78vh;
+    background-color: var(--main-color);
+    margin-bottom: var(--margin-main_text-footer);
+}
+
+
+/********* /.Site_main **********/
+
+
+/********* .Site_footer **********/
+
+.site_footer {
+    height: 6vh;
+    background-color: var(--footer-color);
+}
+
+
+/********* /.Site_footer **********/
