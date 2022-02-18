@@ -23,9 +23,9 @@
     --header-color: #FEB1B1;
     /* Dimensions */
     --margin-header-main_photo: 2vh;
-    --margin-main_photo-main_text: 3%;
+    --margin-main_photo-main_text: 2%;
     --margin-main_text-footer: 2vh;
-    --main-text-gutter: 3vh;
+    --main-text-gutter: 1vh;
 }
 
 
@@ -74,14 +74,19 @@ body {
 
 /***** .main-text-container *****/
 
+.main-text {
+    text-align: center;
+}
+
 .main-text-header {
     height: 5vh;
     background-color: var(--main-header_text-color);
+    margin-bottom: 1vh;
 }
 
 .sidebar {
     width: 11vh;
-    height: 38vh;
+    height: 36vh;
     background-color: var(--sidebar-color);
 }
 
@@ -96,9 +101,10 @@ body {
 }
 
 .text {
-    height: 38vh;
+    display: inline-block;
+    width: 61vh;
+    height: 36vh;
     background-color: var(--main-text-color);
-    margin-right: var(--main-text-gutter);
 }
 
 
