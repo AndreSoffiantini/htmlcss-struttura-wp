@@ -14,7 +14,7 @@
 
 :root {
     /* Colors */
-    --sidebar-color: #80A6D1;
+    --sidebar-color: #b7d2f0;
     --main-text-color: #7FB2C8;
     --main-header_text-color: #8CE3C4;
     --main-photo-color: #B2EA85;
@@ -25,6 +25,7 @@
     --margin-header-main_photo: 2vh;
     --margin-main_photo-main_text: 3%;
     --margin-main_text-footer: 2vh;
+    --main-text-gutter: 3vh;
 }
 
 
@@ -73,9 +74,31 @@ body {
 
 /***** .main-text-container *****/
 
-.main-text-container {
-    height: 55%;
+.main-text-header {
+    height: 5vh;
+    background-color: var(--main-header_text-color);
+}
+
+.sidebar {
+    width: 11vh;
+    height: 38vh;
+    background-color: var(--sidebar-color);
+}
+
+.sidebar-left {
+    float: left;
+    margin-right: var(--main-text-gutter);
+}
+
+.sidebar-right {
+    float: right;
+    margin-left: var(--main-text-gutter);
+}
+
+.text {
+    height: 38vh;
     background-color: var(--main-text-color);
+    margin-right: var(--main-text-gutter);
 }
 
 
